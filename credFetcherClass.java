@@ -52,7 +52,7 @@ public class credFetcherClass {
 		int userChoice = 0;
 		do {
 			try {
-				System.out.println("Do you wish to iterate again?\n1) Yes\n2)No");
+				System.out.println("\n\n\nDo you wish to iterate again?\n1) Yes\n2) No");
 				userChoice = inputReader.nextInt();
 			} catch (InputMismatchException e) {
 				System.out.println("Please input a numeric value only.");

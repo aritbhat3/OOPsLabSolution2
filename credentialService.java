@@ -8,7 +8,7 @@ public class credentialService {
 		return emailID;
 	}
 
-	public char[] generatePassword() {
+	public char[] generateRanPassword() {
 		String capLet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String smalLet = capLet.toLowerCase();
 		String numbers = "0123456789";
@@ -17,10 +17,9 @@ public class credentialService {
 		Random ranGen = new Random();
 
 		char[] pwdArr = new char[8];
-
+		
 		for (int i = 0; i < 8; i++) {
 			pwdArr[i] = masterPool.charAt(ranGen.nextInt(masterPool.length()));
-			//dont use + in strings as it makes too many strings in memory
 		}
 		return pwdArr;
 	}
