@@ -6,7 +6,7 @@ public class employee {
 	String department;
 	final String company = ".tcs.com";
 	String emailID;
-	String password;
+	char[] password;
 
 	public employee(String firstName, String lastName, String department) {
 		this.firstName = firstName;

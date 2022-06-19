@@ -60,10 +60,12 @@ public class credFetcherClass {
 			}
 			if (userChoice == 1)
 				return true;
-			else if (userChoice == 2)
+			else if (userChoice == 2) {
+				System.out.println("Thank you for your input");
 				return false;
+			}
 			else {
-				System.out.println("Please enter a valid choice only. Please run again.");
+				System.out.println("Please enter a valid choice only.");
 				userChoice = 0;
 			}
 		} while (userChoice == 0);
