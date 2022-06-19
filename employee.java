@@ -26,7 +26,8 @@ public class employee {
 			e1.password = credServ.generateRanPassword();
 
 			System.out.print("Email    ---> " + e1.emailID + "\nPassword ---> ");
-			for (int i=0;i<e1.password.length;i++) System.out.print(e1.password[i]);
+			for (int i = 0; i < e1.password.length; i++)
+				System.out.print(e1.password[i]);
 
 			nextIteration = credFetch.confNextIteration();
 

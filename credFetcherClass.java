@@ -63,8 +63,7 @@ public class credFetcherClass {
 			else if (userChoice == 2) {
 				System.out.println("Thank you for your input");
 				return false;
-			}
-			else {
+			} else {
 				System.out.println("Please enter a valid choice only.");
 				userChoice = 0;
 			}
